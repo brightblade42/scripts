@@ -3,8 +3,8 @@ open System
 #r "nuget: Newtonsoft.Json"
 open FSharp.Data
 
-let url = "http://10.211.55.16/fr/enrollment/create"
-let comps = ["1029"] //;"1036";"1037";"1038"]
+let url = "http://172.16.99.41/fr/enrollment/create"
+let comps = ["1"] //;"1036";"1037";"1038"]
 let make_enroll_req (compid: string) (search_val: string) =
         (sprintf """ {
                    "command": "enroll",

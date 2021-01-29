@@ -1,0 +1,11 @@
+{
+	"command":"enroll",
+	"candidates": [
+	 {
+	
+		"id_or_name": "A",
+		"typ": "Personnel",
+		"comp_id": "1"
+		}
+	]
+}
